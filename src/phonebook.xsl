@@ -6,9 +6,9 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>My Phonebook</h1>
+                <h2>My Phonebook</h2>
                 <table border="5">
-                    <tr bgcolor="#0fffff">
+                    <tr bgcolor="#9acd32">
                         <th>Name</th>
                         <th>Last Name</th>
                         <th>Phone</th>
