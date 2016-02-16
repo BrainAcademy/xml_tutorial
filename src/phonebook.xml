@@ -6,6 +6,40 @@
         <last_name>Harper</last_name>
         <phone>+81 (3) 252-01-23</phone>
         <country>Japan</country>
+        <city>Tokyo</city>
         <birthday>May 20 1985</birthday>
     </cd>
+    <cd>
+        <name>John</name>
+        <last_name>Smith</last_name>
+        <phone>+22 (6) 346-06-75</phone>
+        <country>United Kingdom</country>
+        <city>London</city>
+        <birthday>Sep 21 1985</birthday>
+    </cd>
+    <cd>
+        <name>Taras</name>
+        <last_name>Ponomarov</last_name>
+        <phone>+38 (0) 956-46-75</phone>
+        <country>Ukraine</country>
+        <city>Kyiv</city>
+        <birthday>Feb 22 1985</birthday>
+    </cd>
+    <cd>
+        <name>James</name>
+        <last_name>Deen</last_name>
+        <phone>+81 (3) 951-25-75</phone>
+        <country>United States</country>
+        <city>San Francisco</city>
+        <birthday>Jul 23 1985</birthday>
+    </cd>
+    <cd>
+        <name>Dead</name>
+        <last_name>Pool</last_name>
+        <phone>+81 (3) 753-35-75</phone>
+        <country>United States</country>
+        <city>New York</city>
+        <birthday>Jun 24 1973</birthday>
+    </cd>
+
 </catalog>

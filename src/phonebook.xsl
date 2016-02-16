@@ -5,14 +5,18 @@
 
     <xsl:template match="/">
         <html>
+
             <body>
-                <h2>My Phonebook</h2>
-                <table border="5">
-                    <tr bgcolor="#9acd32">
+                <h1>My Phonebook</h1>
+                <table border="0" bordercolor="#15b4d4">
+                    <tr bgcolor="#329acd">
                         <th>Name</th>
                         <th>Last Name</th>
                         <th>Phone</th>
+                        <!--
                         <th>Country</th>
+                        -->
+                        <th>City</th>
                         <th>Birthday</th>
                     </tr>
                     <xsl:for-each select="catalog/cd">
@@ -26,8 +30,13 @@
                             <td>
                                 <xsl:value-of select="phone"/>
                             </td>
+                            <!--
                             <td>
                                 <xsl:value-of select="country"/>
+                            </td>
+                            -->
+                            <td>
+                                <xsl:value-of select="city"/>
                             </td>
                             <td>
                                 <xsl:value-of select="birthday"/>
